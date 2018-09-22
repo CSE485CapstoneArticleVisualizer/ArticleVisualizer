@@ -1,0 +1,33 @@
+{
+  "name": "articlevisualizer",
+  "version": "1.0.0",
+  "description": "Visualize Social Media Articles",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE485CapstoneArticleVisualizer/ArticleVisualizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSE485CapstoneArticleVisualizer/ArticleVisualizer/issues"
+  },
+  "homepage": "https://github.com/CSE485CapstoneArticleVisualizer/ArticleVisualizer#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "vis": "^4.21.0"
+  }
+}
