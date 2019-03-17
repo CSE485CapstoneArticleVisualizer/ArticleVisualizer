@@ -1,25 +1,25 @@
 #visual_container {
-	display: flex;
-	justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #container {
-	position: fixed;
-	top: 0px;
-	left: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 #main_svg {
-	position: fixed;
-	top: 0px;
-	left: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 #input {
-	margin-top: 20px;
-	margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 #text {
-	pointer-events: none;
+  pointer-events: none;
 }
